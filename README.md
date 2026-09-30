@@ -29,7 +29,7 @@ Hospital-Management-System/
 └── README.md
 ```
 
-The `out/` directory contains generated Java bytecode and is intentionally excluded from source control.
+Generated Java bytecode/build output such as `out/` is intentionally excluded from source control.
 
 ## Run Locally
 

@@ -1,18 +1,53 @@
-## Getting Started
+# Hospital Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java Swing–based desktop **Hospital Management System** developed as an academic software project.
 
-## Folder Structure
+## Overview
 
-The workspace contains two folders by default, where:
+The application models core hospital workflows and uses object-oriented design, Java Swing for the desktop interface, custom exceptions, and JSON files for local data persistence.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tech Stack
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Language:** Java
+- **GUI:** Java Swing
+- **Data persistence:** JSON
+- **Development:** VS Code / JDK
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Project Structure
 
-## Dependency Management
+```text
+Hospital-Management-System/
+├── src/
+│   ├── data/
+│   ├── exception/
+│   ├── model/
+│   ├── AppFrame.java
+│   ├── Hospital.java
+│   ├── JsonHelper.java
+│   └── Main.java
+├── .gitignore
+└── README.md
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The `out/` directory contains generated Java bytecode and is intentionally excluded from source control.
+
+## Run Locally
+
+1. Install a recent JDK.
+2. Clone the repository.
+3. Open the project in VS Code or another Java IDE.
+4. Compile the source files.
+5. Run `Main.java`.
+
+## Concepts Practiced
+
+- Object-oriented programming
+- Inheritance and class design
+- Exception handling
+- Data modelling
+- GUI development
+- JSON-based persistence
+
+## Project Status
+
+Academic project. The repository is being maintained and documented as part of my software development portfolio.
